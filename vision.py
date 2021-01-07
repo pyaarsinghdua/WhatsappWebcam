@@ -3,8 +3,8 @@ import winsound
 from twilio.rest import Client
 import datetime
 
-account_sid = 'AC747a0fe8dddedcfa64a2b0dd62649969' 
-auth_token = 'e9ab0fc55ade7b68beb69282a68f4586' 
+account_sid = '....' 
+auth_token = '....' 
 client = Client(account_sid, auth_token)
 
 oldtime = datetime.datetime.now()
@@ -31,7 +31,7 @@ while cam.isOpened():
         newtime = datetime.datetime.now()
         time_diff = newtime - oldtime
         if(time_diff.seconds >= 15):
-            message = client.messages.create(from_='whatsapp:+14155238886', body='Kindly see you room, Someone entered', to='whatsapp:+919466519919' )
+            message = client.messages.create(from_='whatsapp:+1.....', body='Kindly see you room, Someone entered', to='whatsapp:+91.....' )
             oldtime = datetime.datetime.now()
         #winsound.PlaySound('alert1.wav', winsound.SND_ASYNC)
     if cv2.waitKey(10) == ord('q'):
