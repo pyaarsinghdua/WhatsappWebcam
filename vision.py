@@ -41,9 +41,10 @@ while cam.isOpened():
                               from_= fromnumber,  
                               body=messagesent,      
                               to= tonumber 
-                          ) 
+                          )
+            winsound.PlaySound('alert1.wav', winsound.SND_ASYNC)
             oldtime = datetime.datetime.now()
-        #winsound.PlaySound('alert1.wav', winsound.SND_ASYNC)
+
     if cv2.waitKey(10) == ord('q'):
         cv2.destroyAllWindows()
         cam.release()
