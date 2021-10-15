@@ -11,4 +11,4 @@ In this any suitable camera connected to PC will take take frames and using open
 
 ![alt text](https://github.com/pyaarsinghdua/WhatsappWebcam/blob/main/Untitled.png?raw=true)
 
-![alt text](https://github.com/pyaarsinghdua/WhatsappWebcam/blob/main/WhatsApp Image 2021-10-15 at 5.55.38 PM.jpeg?raw=true)
+![alt text](https://github.com/pyaarsinghdua/WhatsappWebcam/blob/main/chat.jpeg?raw=true)
