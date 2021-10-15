@@ -12,3 +12,8 @@ In this any suitable camera connected to PC will take take frames and using open
 ![alt text](https://github.com/pyaarsinghdua/WhatsappWebcam/blob/main/Untitled.png?raw=true)
 
 ![alt text](https://github.com/pyaarsinghdua/WhatsappWebcam/blob/main/chat.jpeg?raw=true)
+
+
+FLOW CHART:
+
+![alt text](https://github.com/pyaarsinghdua/WhatsappWebcam/blob/main/flowchart.jpeg?raw=true)
