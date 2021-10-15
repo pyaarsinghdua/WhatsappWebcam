@@ -16,7 +16,9 @@ delaytime = int(input('Enter delay time in seconds-'))
 oldtime = datetime.datetime.now()
 newtime = datetime.datetime.now()
 
-cam = cv2.VideoCapture(0)
+camera_code = int(input('Enter camera code-'))
+
+cam = cv2.VideoCapture(camera_code)
 while cam.isOpened():
     ret, frame1 = cam.read()
     ret, frame2 = cam.read()
